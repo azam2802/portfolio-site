@@ -1,0 +1,86 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .black-box {
+      position: absolute;
+      width: 1802.3px;
+      height: 1800.99px;
+      left: 653.5px;
+      background-color: #000;
+      transform: rotate(9.67deg);
+    }
+  }
+  &-socials {
+    display: flex;
+    padding-top: 150px;
+    gap: 30px;
+    button {
+      padding: 10px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      background: rgb(196, 196, 196);
+      border: none;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &-text {
+    margin-top: 150px;
+  }
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    height: 100vh;
+    margin: auto 0;
+    h1 {
+      font-size: 80px;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    h3 {
+      font-size: 25px;
+      font-weight: 800;
+      color: rgb(145, 145, 145);
+    }
+  }
+  &-image {
+    width: 50%;
+    text-align: right;
+    img {
+      filter: drop-shadow(0px 0 100px #0079c4);
+      width: 75%;
+      z-index: -1;
+      animation: 20s linear 0s normal none infinite running rot;
+    }
+  }
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

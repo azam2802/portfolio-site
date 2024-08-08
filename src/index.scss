@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-weight: 500;
+  outline: none;
+}
+
+body{
+    overflow-x: hidden;
+    background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(26, 21, 21, 0),rgba(1, 1, 1, 0.16) 100%),rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
