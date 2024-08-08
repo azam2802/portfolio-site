@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           <div className="hero-description">
             <div className="hero-text">
               <h2>Hi, I am</h2>
-              <h1>SOME NAME</h1>
+              <h1>Azam Umarov</h1>
               <h3>Front-end developer</h3>
             </div>
             <div className="hero-socials">
